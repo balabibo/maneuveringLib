@@ -30,10 +30,6 @@ cd maneuveringLib
   3. add two momentum source methods `oumSource` `HOSource` in `/src/fvOptions/sources/derived`. They are based on blade element momentum theory/open water curve seperately, and you can find details from the reference, it can be used to replace the real propeller as a propulsion device.
   4. add 4 different maneuvering motions, self-propulsion, turning, zigzag and coursekeeping, for ship. First, it utilize the PID controller to adjust the revolution speed of discretized propeller or momentum source in "sailing" mode, and the PID contorller is also applied to control the rudder motion in "coursekeeping" mode. The rudder controller is used to realize "turning" and "zigzag" maneuvering motions.
 
-## Updates:
-  1. rewrite class `maneuveringOutput`, class `maneuveringInput`, class `controlMethod` with RTS construction.
-  2. the loaction for `driven3DofMotion` `driven2DofMotion` is updated.
-
 #### P.S.
 
 This serial will be updated continuously in the future. Those modules may have some bugs due to the neglect of author, and if you have any question or suggestion, please feel free to use the "Issues" button.
