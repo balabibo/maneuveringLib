@@ -1,0 +1,4 @@
+rigidBodyMeshMotion/rigidBodyMeshMotion.C  /* modified */
+rigidBodyMeshMotionSolver/rigidBodyMeshMotionSolver.C
+
+LIB = $(FOAM_USER_LIBBIN)/libmaneRigidBodyMeshMotion

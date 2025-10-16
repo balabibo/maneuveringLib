@@ -1,0 +1,36 @@
+#!/bin/bash
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/wmake/scripts/AllwmakeParseArguments
+
+#------------------------------------------------------------------------------
+wmake ./src/functionObjects
+
+wmake ./src/fvOptions
+
+wmake ./src/meshTools
+
+wmake ./src/maneuveringOutput
+
+wmake ./src/maneRigidBodyDynamics
+
+wmake ./src/maneRigidBodyMeshMotion
+
+wmake ./src
+
+if [ -f $FOAM_USER_LIBBIN/libmaneuveringLib.so ]; then
+	echo ""
+	echo "====================================="
+	echo "    COMPILATION DONE"
+	echo "====================================="
+	echo ""
+else
+	echo ""
+	echo "====================================="
+	echo "COMPILATION ERROR"
+	echo "====================================="
+	echo ""
+fi
+
+#------------------------------------------------------------------------------
+
+

@@ -1,0 +1,4 @@
+./solidBodyMotionFunctions/driven2DofMotion/driven2DofMotion.C
+./solidBodyMotionFunctions/driven3DofMotion/driven3DofMotion.C
+
+LIB = $(FOAM_USER_LIBBIN)/libaddedSolidBodyMotionFunction

@@ -30,7 +30,7 @@ solvers
 
     boat_propeller
     {
-        motionSolverLibs    (librigidBodyMeshMotion);
+        //~ motionSolverLibs    (libmaneRigidBodyMeshMotion);
         motionSolver         rigidBodyMotion;
 
         report              on;

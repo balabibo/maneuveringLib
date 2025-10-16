@@ -1,0 +1,1 @@
+../maneRigidBodyDynamics/doc/rigidBodyDynamicsDoc.H

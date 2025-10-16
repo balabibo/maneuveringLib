@@ -1,0 +1,1 @@
+../maneRigidBodyDynamics/rigidBodyInertia/rigidBodyInertiaI.H

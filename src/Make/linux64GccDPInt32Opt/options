@@ -1,0 +1,46 @@
+# 0 "Make/options"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 8 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 45 "/usr/include/stdc-predef.h" 3 4
+
+# 55 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+# 8 "<command-line>" 2
+# 1 "Make/options"
+EXE_INC = -I$(LIB_SRC)/finiteVolume/lnInclude -I$(LIB_SRC)/fileFormats/lnInclude -I$(LIB_SRC)/meshTools/lnInclude -I$(LIB_SRC)/functionObjects/forces/lnInclude -I$(LIB_SRC)/dynamicMesh/lnInclude -I./functionObjects/lnInclude -I./fvOptions/lnInclude -I./meshTools/lnInclude -I./maneRigidBodyDynamics/lnInclude -I./maneRigidBodyMeshMotion/lnInclude -I./maneuveringOutput/lnInclude
+# 13 "Make/options"
+
+LIB_LIBS = -lfiniteVolume -lmeshTools -lforces -ldynamicMesh -L$(FOAM_USER_LIBBIN)/ -lforceMultiphase -L$(FOAM_USER_LIBBIN)/ -laddedSources -L$(FOAM_USER_LIBBIN)/ -laddedSolidBodyMotionFunction -L$(FOAM_USER_LIBBIN)/ -lmaneRigidBodyDynamics -L$(FOAM_USER_LIBBIN)/ -lmaneRigidBodyMeshMotion -L$(FOAM_USER_LIBBIN)/ -lmaneuveringOutput
+
+# options

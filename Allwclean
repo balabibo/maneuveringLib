@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#------------------------------------------------------------------------------
+
+wclean ./src/functionObjects
+
+wclean ./src/fvOptions
+
+wclean ./src/meshTools
+
+wclean ./src/maneuveringOutput
+
+wclean ./src/maneRigidBodyDynamics
+
+wclean ./src/maneRigidBodyMeshMotion
+
+wclean ./src
+
+rm -f $FOAM_USER_LIBBIN/libmaneuveringLib.so
+
+if [ -f $FOAM_USER_LIBBIN/libmaneuveringLib.so ]; then
+	echo ""
+	echo "====================================="
+	echo "    CLEAN ERROR"
+	echo "====================================="
+	echo ""
+else
+	echo ""
+	echo "====================================="
+	echo "    COMPILATION CLEAN"
+	echo "====================================="
+	echo ""
+fi
+
+#------------------------------------------------------------------------------
+
+

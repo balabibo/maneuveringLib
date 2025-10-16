@@ -1,0 +1,3 @@
+forces/forceMultiphase/forceMultiphase.C
+
+LIB = $(FOAM_USER_LIBBIN)/libforceMultiphase

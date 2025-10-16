@@ -1,0 +1,5 @@
+sources/derived/HOSource/HOSource.C
+sources/derived/oumSource/oumSource.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libaddedSources

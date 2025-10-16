@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-libs            (overset rigidBodyDynamics);
+libs            (overset maneuveringLib);
 
 application     overInterDyMFoam;
 
