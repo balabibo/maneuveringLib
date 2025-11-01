@@ -16,6 +16,7 @@ LIB_LIBS = \
     -lmeshTools \
     -lforces \
     -ldynamicMesh \
+    -lrigidBodyDynamics \
     -L$(FOAM_USER_LIBBIN)/ -lforceMultiphase \
     -L$(FOAM_USER_LIBBIN)/ -laddedSources \
     -L$(FOAM_USER_LIBBIN)/ -laddedSolidBodyMotionFunction \
