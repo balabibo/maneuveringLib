@@ -1,2 +1,6 @@
-/* EXE_INC = */
-/* LIB_LIBS = */
+EXE_INC = \
+    -I$(FOAM_SRC)/rigidBodyDynamics/lnInclude
+    
+LIB_LIBS = \
+    -lrigidBodyDynamics
+ 

@@ -1,6 +1,6 @@
 rbmm = $(FOAM_SRC)/rigidBodyMeshMotion
 
-rigidBodyMeshMotion/rigidBodyMeshMotion.C  /* modified */
 $(rbmm)/rigidBodyMeshMotionSolver/rigidBodyMeshMotionSolver.C
+rigidBodyMeshMotion/rigidBodyMeshMotion.C  /* modified */
 
 LIB = $(FOAM_USER_LIBBIN)/libmaneRigidBodyMeshMotion
