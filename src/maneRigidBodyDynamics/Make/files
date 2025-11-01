@@ -1,40 +1,42 @@
-bodies/rigidBody/rigidBody.C
-bodies/masslessBody/masslessBody.C
-bodies/jointBody/jointBody.C
-bodies/compositeBody/compositeBody.C
-bodies/subBody/subBody.C
-bodies/sphere/sphere.C
-bodies/cuboid/cuboid.C
+rbd = $(FOAM_SRC)/rigidBodyDynamics
 
-joints/joint/joint.C
-joints/null/nullJoint.C
-joints/composite/compositeJoint.C
-joints/floating/floatingJoint.C
-
-joints/Rx/Rx.C
-joints/Ry/Ry.C
-joints/Rz/Rz.C
-joints/Ra/Ra.C
-joints/Rs/Rs.C
-joints/Rzyx/Rzyx.C
-joints/Rxyz/Rxyz.C
-joints/Ryxz/Ryxz.C
-
-joints/Px/Px.C
-joints/Py/Py.C
-joints/Pz/Pz.C
-joints/Pa/Pa.C
-joints/Pxyz/Pxyz.C
-
-restraints/restraint/rigidBodyRestraint.C
-restraints/restraint/rigidBodyRestraintNew.C
-restraints/linearSpring/linearSpring.C
-restraints/linearDamper/linearDamper.C
-restraints/linearAxialAngularSpring/linearAxialAngularSpring.C
-restraints/sphericalAngularDamper/sphericalAngularDamper.C
-restraints/prescribedRotation/prescribedRotation.C
-restraints/externalForce/externalForce.C
-restraints/softWall/softWall.C
+$(rbd)/bodies/rigidBody/rigidBody.C
+$(rbd)/bodies/masslessBody/masslessBody.C
+$(rbd)/bodies/jointBody/jointBody.C
+$(rbd)/bodies/compositeBody/compositeBody.C
+$(rbd)/bodies/subBody/subBody.C
+$(rbd)/bodies/sphere/sphere.C
+$(rbd)/bodies/cuboid/cuboid.C
+$(rbd)/
+$(rbd)/joints/joint/joint.C
+$(rbd)/joints/null/nullJoint.C
+$(rbd)/joints/composite/compositeJoint.C
+$(rbd)/joints/floating/floatingJoint.C
+$(rbd)/
+$(rbd)/joints/Rx/Rx.C
+$(rbd)/joints/Ry/Ry.C
+$(rbd)/joints/Rz/Rz.C
+$(rbd)/joints/Ra/Ra.C
+$(rbd)/joints/Rs/Rs.C
+$(rbd)/joints/Rzyx/Rzyx.C
+$(rbd)/joints/Rxyz/Rxyz.C
+$(rbd)/joints/Ryxz/Ryxz.C
+$(rbd)/
+$(rbd)/joints/Px/Px.C
+$(rbd)/joints/Py/Py.C
+$(rbd)/joints/Pz/Pz.C
+$(rbd)/joints/Pa/Pa.C
+$(rbd)/joints/Pxyz/Pxyz.C
+$(rbd)/
+$(rbd)/restraints/restraint/rigidBodyRestraint.C
+$(rbd)/restraints/restraint/rigidBodyRestraintNew.C
+$(rbd)/restraints/linearSpring/linearSpring.C
+$(rbd)/restraints/linearDamper/linearDamper.C
+$(rbd)/restraints/linearAxialAngularSpring/linearAxialAngularSpring.C
+$(rbd)/restraints/sphericalAngularDamper/sphericalAngularDamper.C
+$(rbd)/restraints/prescribedRotation/prescribedRotation.C
+$(rbd)/restraints/externalForce/externalForce.C
+$(rbd)/restraints/softWall/softWall.C
 
 restraints/sourceForce/sourceForce.C /* modified */
 
@@ -47,10 +49,10 @@ rigidBodyModelState/rigidBodyModelStateIO.C /* modified */
 rigidBodyMotion/rigidBodyMotion.C /* modified */
 rigidBodyMotion/rigidBodyMotionIO.C /* modified */
 
-rigidBodySolvers/rigidBodySolver/rigidBodySolver.C
-rigidBodySolvers/rigidBodySolver/rigidBodySolverNew.C
-rigidBodySolvers/symplectic/symplectic.C
-rigidBodySolvers/Newmark/Newmark.C
-rigidBodySolvers/CrankNicolson/CrankNicolson.C
+$(rbd)/rigidBodySolvers/rigidBodySolver/rigidBodySolver.C
+$(rbd)/rigidBodySolvers/rigidBodySolver/rigidBodySolverNew.C
+$(rbd)/rigidBodySolvers/symplectic/symplectic.C
+$(rbd)/rigidBodySolvers/Newmark/Newmark.C
+$(rbd)/rigidBodySolvers/CrankNicolson/CrankNicolson.C
 
 LIB = $(FOAM_USER_LIBBIN)/libmaneRigidBodyDynamics
