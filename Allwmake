@@ -2,6 +2,19 @@
 cd "${0%/*}" || exit                                # Run from this directory
 . ${WM_PROJECT_DIR:?}/wmake/scripts/AllwmakeParseArguments
 
+# Rename files by adding a prefix "_"
+f=$FOAM_SRC/rigidBodyDynamics/lnInclude
+mv $f/rigidBodyModel.C      $f/_rigidBodyModel.C
+mv $f/rigidBodyModel.H      $f/_rigidBodyModel.H
+mv $f/rigidBodyModelI.H     $f/_rigidBodyModelI.H
+mv $f/rigidBodyModelState.C $f/_rigidBodyModelState.C
+mv $f/rigidBodyModelState.H $f/_rigidBodyModelState.H
+mv $f/rigidBodyModelStateI.H $f/_rigidBodyModelStateI.H
+mv $f/rigidBodyModelStateIO.C $f/_rigidBodyModelStateIO.C
+mv $f/rigidBodyMotion.C     $f/_rigidBodyMotion.C
+mv $f/rigidBodyMotion.H     $f/_rigidBodyMotion.H
+mv $f/rigidBodyMotionI.H    $f/_rigidBodyMotionI.H
+mv $f/rigidBodyMotionIO.C   $f/_rigidBodyMotionIO.C
 #------------------------------------------------------------------------------
 wmake ./src/functionObjects
 
@@ -32,5 +45,16 @@ else
 fi
 
 #------------------------------------------------------------------------------
-
+# Rename files back to original names
+mv $f/_rigidBodyModel.C      $f/rigidBodyModel.C
+mv $f/_rigidBodyModel.H      $f/rigidBodyModel.H
+mv $f/_rigidBodyModelI.H     $f/rigidBodyModelI.H
+mv $f/_rigidBodyModelState.C $f/rigidBodyModelState.C
+mv $f/_rigidBodyModelState.H $f/rigidBodyModelState.H
+mv $f/_rigidBodyModelStateI.H $f/rigidBodyModelStateI.H
+mv $f/_rigidBodyModelStateIO.C $f/rigidBodyModelStateIO.C
+mv $f/_rigidBodyMotion.C     $f/rigidBodyMotion.C
+mv $f/_rigidBodyMotion.H     $f/rigidBodyMotion.H
+mv $f/_rigidBodyMotionI.H    $f/rigidBodyMotionI.H
+mv $f/_rigidBodyMotionIO.C   $f/rigidBodyMotionIO.C
 
