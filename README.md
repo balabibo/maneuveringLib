@@ -21,6 +21,7 @@ These libraries can be used with solver which deals with rigid-body motion, such
 ```sh
 git clone https://github.com/balabibo/maneuveringLib.git
 cd maneuveringLib
+source OpenFOAM_installation_folder_path/etc/bashrc
 ./Allwmake
 ```
 
