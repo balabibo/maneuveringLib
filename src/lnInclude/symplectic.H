@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/rigidBodySolvers/symplectic/symplectic.H

@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/restraints/linearAxialAngularSpring/linearAxialAngularSpring.H

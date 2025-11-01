@@ -1,1 +1,0 @@
-../doc/rigidBodyDynamicsDoc.H

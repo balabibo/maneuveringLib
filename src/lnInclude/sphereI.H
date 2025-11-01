@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/bodies/sphere/sphereI.H

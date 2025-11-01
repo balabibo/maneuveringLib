@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/joints/composite/compositeJoint.H
