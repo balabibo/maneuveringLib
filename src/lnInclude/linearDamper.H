@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/restraints/linearDamper/linearDamper.H

@@ -1,1 +1,0 @@
-../joints/Ryxz/Ryxz.C

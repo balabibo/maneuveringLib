@@ -1,1 +1,0 @@
-../rigidBodySolvers/symplectic/symplectic.H

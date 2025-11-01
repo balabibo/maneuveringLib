@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/joints/Ryxz/Ryxz.C

@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/rigidBodySolvers/Newmark/Newmark.H

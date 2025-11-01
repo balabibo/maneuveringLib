@@ -1,1 +1,0 @@
-../functionObjects/forces/forceMultiphase/forceMultiphase.H
