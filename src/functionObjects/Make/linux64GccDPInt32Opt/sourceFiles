@@ -1,4 +1,0 @@
-SOURCE = \
-forces/forceMultiphase/forceMultiphase.C \
-
-# sources

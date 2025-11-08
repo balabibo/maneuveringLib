@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/joints/Pxyz/Pxyz.H

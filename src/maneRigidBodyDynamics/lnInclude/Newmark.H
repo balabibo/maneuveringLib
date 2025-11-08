@@ -1,1 +1,0 @@
-../rigidBodySolvers/Newmark/Newmark.H

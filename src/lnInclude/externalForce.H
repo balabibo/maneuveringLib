@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/restraints/externalForce/externalForce.H

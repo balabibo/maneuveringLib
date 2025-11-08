@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/joints/Rs/Rs.H

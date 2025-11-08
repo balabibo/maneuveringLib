@@ -1,1 +1,0 @@
-../restraints/sphericalAngularDamper/sphericalAngularDamper.H

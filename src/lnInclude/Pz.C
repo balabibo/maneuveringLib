@@ -1,1 +1,0 @@
-../maneRigidBodyDynamics/joints/Pz/Pz.C

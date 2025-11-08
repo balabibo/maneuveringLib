@@ -1,5 +1,0 @@
-SOURCE = \
-sources/derived/HOSource/HOSource.C \
-sources/derived/oumSource/oumSource.C \
-
-# sources
