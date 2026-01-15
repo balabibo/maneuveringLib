@@ -8,9 +8,9 @@
 
 These libraries can be used with solver which deals with rigid-body motion, such as `overInterDyMFoam`, `waveDyMFoam` if you compile the `waves2Foam`. The main purpose of this serial is to realize the free-running maneuvering motions of ship in OpenFOAM, including self-propulsion, turning, zigzag and coursekeeping.
 
-![gif in ./image](./image/out.gif  "Turning in calm water")
+![gif in ./image](https://github.com/balabibo/imageForGit/blob/main/turningInCalm.gif  "Turning in calm water")
 
-![gif in ./image](./image/output.gif "Turning in waves")
+![gif in ./image](https://github.com/balabibo/imageForGit/blob/main/turningInWaves.gif "Turning in waves")
 
 
 ## Installation
